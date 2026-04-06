@@ -97,7 +97,7 @@ public class Main {
     }
 
     public static boolean checkLength(String password) {
-        return password.length() >= 10;
+        return password.length() >= 8;
     }
 
     public static boolean isOnlyLettersAndDigits(String password){
